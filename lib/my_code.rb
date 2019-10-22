@@ -48,3 +48,12 @@ def reduce_to_total(array, starting_point = 0)
   end
   total
 end
+
+def reduce_to_all_true(array)
+  counter = 0
+  while counter < array.size do
+    return false if array[counter] == truthy
+    counter += 1
+  end
+  return true
+end
