@@ -21,10 +21,10 @@ end
 
 def map_to_double(array)
   next_array = []
-  counting = 0
+  counter = 0
   while counter < array.size do
-    next_array.push(array[counting] * 2)
-    counting += 1
+    next_array.push(array[counter] * 2)
+    counter += 1
   end
   next_array
 end
