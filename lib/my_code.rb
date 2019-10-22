@@ -18,3 +18,13 @@ def map_to_no_change(array)
   end
   new_array
 end
+
+def map_to_double
+  next_array = []
+  counting = 0
+  while counter < array.size do
+    next_array.push(array[counting] * 2)
+    counting += 1
+  end
+  next_array
+end
