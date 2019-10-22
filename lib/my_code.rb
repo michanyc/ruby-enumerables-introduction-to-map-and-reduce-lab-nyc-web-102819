@@ -13,7 +13,7 @@ def map_to_no_change(array)
   new_array = []
   counter = 0
   while counter < array.count do
-    final_array << array[counter]
+    final_array.push(array[counter])
     counter += 1
   end
   new_array
