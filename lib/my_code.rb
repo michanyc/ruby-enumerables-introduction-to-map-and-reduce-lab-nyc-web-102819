@@ -19,7 +19,7 @@ def map_to_no_change(array)
   new_array
 end
 
-def map_to_double
+def map_to_double(array)
   next_array = []
   counting = 0
   while counter < array.size do
